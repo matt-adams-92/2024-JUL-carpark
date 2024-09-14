@@ -8,4 +8,4 @@ class ParkingSlot:
         if self.car:
             return f"Parking slot with id {self.id} and has the following car: {self.car}"
         else:
-            return f"Parking slot with id {self.id}"
+            return f"Parking slot with id {self.id} has no car parked"
